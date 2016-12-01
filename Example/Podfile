@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MWPhotoBrowser_Example' do
+  pod "MWPhotoBrowser-ADS", :path => "../"
+end
+
+target 'MWPhotoBrowser_Tests' do
+  pod "MWPhotoBrowser-ADS", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
